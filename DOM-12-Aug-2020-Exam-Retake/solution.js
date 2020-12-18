@@ -1,18 +1,12 @@
 function solve() {
-    eventHandler(getDOMElement("#container > button"), addMovie);
-    eventHandler(getDOMElement("#archive > button"), clearArchive);
+    eventHandler(getDOMElement('form-event'), addMovie);
+    eventHandler(getDOMElement('clear'), clearArchive);
 }
 function addMovie(e) {
     e.preventDefault();
-
-    const nameInput = getDOMElement("#container > input[type=text]:nth-child(1)");
-    const hallInput = getDOMElement("#container > input[type=text]:nth-child(2)");
-    const priceInput = getDOMElement("#container > input[type=text]:nth-child(3)");
-    const moviesUl = getDOMElement('#movies > ul');
-
-    const name = nameInput.value;
-    const hall = hallInput.value;
-    const price = Number(priceInput.value);
+    const name = getDOMElement('name-input').value;
+    const hall = getDOMElement('hall-input').value;
+    const price = Number(getDOMElement('price-input').value);
 
     if (!name || !hall || !price) return;
 
@@ -27,32 +21,36 @@ function addMovie(e) {
     eventHandler(archive, archiveMovie);
     appendClilds(div, [priceStrong, input, archive]);
     appendClilds(li, [span, hallStrong, div]);
-    appendClilds(moviesUl, [li]);
-    clearValue(nameInput, hallInput, priceInput);
+    appendClilds(
+        getDOMElement('movies-ul'), [li]
+    );
+    clearValue(
+        getDOMElement('name-input'),
+        getDOMElement('hall-input'),
+        getDOMElement('price-input')
+    );
 }
 
 function archiveMovie(e) {
-    const button = e.target;
-    const div = button.parentNode;
-    const li = div.parentNode;
-    const input = getDOMElement('input', div);
-    const priceElement = getDOMElement('strong', div);
-    const hallElement = getDOMElement('strong', li);
-    const archiveUl = getDOMElement('#archive > ul');
+    const div = e.target.parentNode;
+    const input = getDOMElement(undefined, 'input', div);
     const tickets = Number(input.value);
-    const price = Number(priceElement.innerHTML);
 
     if (!tickets) return;
 
+    const li = div.parentNode;
+    const priceElement = getDOMElement(undefined, 'strong', div);
+    const hallElement = getDOMElement(undefined, 'strong', li);
+    const totalPrice = (tickets * Number(priceElement.innerHTML)).toFixed(2);
     const archive = createElement('button', 'Delete');
-    const totalPrice = createElement('strong', `Total amount: ${(tickets * price).toFixed(2)}`);
+    const totalPriceElement = createElement('strong', `Total amount: ${totalPrice}`);
 
     div.remove();
     hallElement.remove();
 
     eventHandler(archive, removeList);
-    appendClilds(li, [totalPrice, archive]);
-    appendClilds(archiveUl, [li]);
+    appendClilds(li, [totalPriceElement, archive]);
+    appendClilds(getDOMElement('archive-ul'), [li]);
 }
 
 function removeList(e) {
@@ -61,7 +59,7 @@ function removeList(e) {
 }
 
 function clearArchive(e) {
-    const archiveUl = getDOMElement('#archive > ul');
+    const archiveUl = getDOMElement(undefined, '#archive > ul');
     archiveUl.innerHTML = '';
 }
 
@@ -69,10 +67,19 @@ function eventHandler(element, fn) {
     element.addEventListener('click', fn);
 }
 
-function getDOMElement(selector, parent) {
-    const element = parent
-        ? parent.querySelector(selector)
-        : document.querySelector(selector);
+function getDOMElement(id, selector, parent) {
+
+    const getById = (id) => {
+        return document.getElementById(id);
+    };
+    const getBySelector = (selector, parent) => {
+        return parent
+            ? parent.querySelector(selector)
+            : document.querySelector(selector);
+    }
+    const element = id
+        ? getById(id)
+        : getBySelector(selector, parent);
 
     if (!element) {
         throw new Error('Missing DOM element! ' + selector);

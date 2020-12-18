@@ -17,22 +17,22 @@
     <form id="add-new">
         <h2>Add Movie</h2>
         <div id='container'>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Hall" />
-            <input type="text" placeholder="Ticket Price" />
-            <button>On Screen</button>
+            <input id="name-input" type="text" placeholder="Name" />
+            <input id="hall-input" type="text" placeholder="Hall" />
+            <input id="price-input" type="text" placeholder="Ticket Price" />
+            <button id="form-event">On Screen</button>
         </div>
     </form>
 
     <section id="movies">
         <h2>Movies on Screen</h2>
-        <ul></ul>
+        <ul id="movies-ul"></ul>
     </section>
 
     <section id="archive">
         <h2>Аrchive</h2>
-        <ul></ul>
-        <button>Clear</button>
+        <ul id="archive-ul"></ul>
+        <button id="clear">Clear</button>
     </section>
 
     <script>document.onload = solve();</script>

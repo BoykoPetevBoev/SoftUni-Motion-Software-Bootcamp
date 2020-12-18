@@ -5,7 +5,6 @@ function eventHandler(element, fn) {
 }
 
 function getDOMElement(selector, parent) {
-
     const element = parent
         ? parent.querySelector(selector)
         : document.querySelector(selector);
