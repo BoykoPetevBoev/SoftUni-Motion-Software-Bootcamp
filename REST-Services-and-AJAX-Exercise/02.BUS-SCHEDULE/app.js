@@ -1,23 +1,26 @@
-function solve() {
+document.addEventListener('DOMContentLoaded', solve);
 
+function solve() {
+    eventListener(getElement('depart'), 'click', depart);
+    eventListener(getElement('arrive'), 'click', arrive);
     let name = '';
     let next = 'depot';
 
     async function depart() {
         buttonsManager(true);
         const data = await requester(next);
-        getElement('span-info').innerHTML = `Next stop ${data.name}`;
         name = data.name;
         next = data.next;
+        getElement('span-info').innerHTML = `Next stop ${name}`;
     }
     function arrive() {
         buttonsManager(false);
         getElement('span-info').innerHTML = `Arriving at ${name}`;
     }
-    return {
-        depart,
-        arrive
-    };
+}
+
+function eventListener(element, event, fn) {
+    element.addEventListener(event, fn);
 }
 
 function buttonsManager(change) {
@@ -37,5 +40,3 @@ async function requester(id) {
     console.table(data);
     return data;
 }
-
-let result = solve();
