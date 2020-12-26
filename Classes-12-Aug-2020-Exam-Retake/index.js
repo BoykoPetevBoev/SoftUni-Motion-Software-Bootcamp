@@ -1,7 +1,7 @@
 class Hall {
     constructor(capacity, name) {
-        this.capacity = Number(capacity) || 0;
-        this.name = name || '';
+        this.capacity = Number(capacity);
+        this.name = name;
         this.events = [];
     }
     hallEvent(title) {

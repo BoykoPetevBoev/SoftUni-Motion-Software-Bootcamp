@@ -11,9 +11,7 @@ class Pet {
         this.comments.push(comment);
         return 'Comment is added.';
     }
-    feed() {
-        return `${this.name} is fed`;
-    }
+    feed() { return `${this.name} is fed`; }
     toString() {
         let result = `Here is ${this.owner}'s pet ${this.name}.`;
         if (this.comments.length !== 0) {
@@ -29,19 +27,8 @@ class Cat extends Pet {
         this.insideHabits = insideHabits;
         this.scratching = scratching;
     }
-    feed() {
-        let result = super.feed();
-        result += ', happy and purring.';
-        return result;
-    }
-    toString() {
-        let result = super.toString();
-        result += `\nMain information:\n${this.name} is a cat with ${this.insideHabits}`;
-        if (this.scratching) {
-            result += ', but beware of scratches.';
-        }
-        return result;
-    }
+    feed() { return `${super.feed()}, happy and purring.`; }
+    toString() { return `${super.toString()}\nMain information:\n${this.name} is a cat with ${this.insideHabits}${this.scratching ? ', but beware of scratches.' : ''}`; }
 }
 
 class Dog extends Pet {
@@ -50,16 +37,8 @@ class Dog extends Pet {
         this.runningNeeds = runningNeeds;
         this.trainability = trainability;
     }
-    feed() {
-        let result = super.feed();
-        result += ', happy and wagging tail.';
-        return result;
-    }
-    toString() {
-        let result = super.toString();
-        result += `\nMain information:\n${this.name} is a dog with need of ${this.runningNeeds}km running every day and ${this.trainability} trainability.`;
-        return result;
-    }
+    feed() { return `${super.feed()}, happy and wagging tail.`; }
+    toString() { return `${super.toString()}\nMain information:\n${this.name} is a dog with need of ${this.runningNeeds}km running every day and ${this.trainability} trainability.`; }
 }
 
 
