@@ -1,3 +1,5 @@
+getElement('load').addEventListener('click', loadCommits);
+
 async function loadCommits() {
     const username = getElement('username').value;
     const repo = getElement('repo').value;
