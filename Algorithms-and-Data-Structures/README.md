@@ -63,7 +63,7 @@
 
 ## Selection sort 
 
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/selection_sort.gif" alt="Selection Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/selection_sort.gif" alt="Selection Sort " width="500"/>
 
 Simple, but inefficient algorithm.
 Swap the first with the min element on the right, then the second, etc.
@@ -74,7 +74,7 @@ Swap the first with the min element on the right, then the second, etc.
 
 ## Bubble sort 
 
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/bubble_sort.gif" alt="Bubble Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/bubble_sort.gif" alt="Bubble Sort " width="500"/>
 
 Simple, but inefficient algorithm.
 Swaps to neighbor elements when not in order until sorted.
@@ -85,7 +85,7 @@ Swaps to neighbor elements when not in order until sorted.
 
 ## Insertion sort  
 
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/insertion_sort.gif" alt="Insertion Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/insertion_sort.gif" alt="Insertion Sort " width="500"/>
 
 Simple, but inefficient algorithm.
 Move the first unsorted element left to its place.
@@ -96,7 +96,7 @@ Move the first unsorted element left to its place.
 
 ## Merge sort  
 
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/merge_sort.gif" alt="Merge Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/merge_sort.gif" alt="Merge Sort " width="500"/>
 
 Efficient sorting algorithm.
 
@@ -112,8 +112,8 @@ Best, average and worst case: O(n*log(n))
 
 ## Quick Sort  
 
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/quick_sort_hoare.gif" alt="Quick Sort " width="500"/>
-<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/master/Algorithms-and-Data-Structures/_README/quick_sort_lomuto.gif" alt="Quick Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/quick_sort_hoare.gif" alt="Quick Sort " width="500"/>
+<img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/quick_sort_lomuto.gif" alt="Quick Sort " width="500"/>
 
 Efficient sorting algorithm.
 
