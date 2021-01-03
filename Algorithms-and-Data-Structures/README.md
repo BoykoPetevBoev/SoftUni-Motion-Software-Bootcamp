@@ -61,7 +61,7 @@
     </tbody>
 </table>
 
-## Selection sort 
+## Selection Sort 
 
 <img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/selection_sort.gif" alt="Selection Sort " width="500"/>
 
@@ -72,7 +72,7 @@ Swap the first with the min element on the right, then the second, etc.
 * Stable: **No**
 * Method: **Selection**
 
-## Bubble sort 
+## Bubble Sort 
 
 <img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/bubble_sort.gif" alt="Bubble Sort " width="500"/>
 
@@ -83,7 +83,7 @@ Swaps to neighbor elements when not in order until sorted.
 * Stable: **Yes**
 * Method: **Exchanging**
 
-## Insertion sort  
+## Insertion Sort  
 
 <img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/insertion_sort.gif" alt="Insertion Sort " width="500"/>
 
@@ -94,7 +94,7 @@ Move the first unsorted element left to its place.
 * Stable: **Yes**
 * Method: **Insertion**
 
-## Merge sort  
+## Merge Sort  
 
 <img src="https://github.com/BoykoPetevBoev/SoftUni-Motion-Software-Bootcamp/blob/main/Algorithms-and-Data-Structures/_README/merge_sort.gif" alt="Merge Sort " width="500"/>
 
