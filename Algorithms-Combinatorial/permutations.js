@@ -4,7 +4,7 @@ function printResult(result) {
 
 function recursion(elements, result, index) {
 
-    if (index === elements.length) printResult(result);
+    if (index === elements.length) return printResult(result);
 
     for (let i = 0; i < elements.length; i++) {
 
