@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, form {
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    text-transform: uppercase;
+}
+
+table body:nth-child(even){
+    background-color: #929292;
+}
+
+table tr {
+    cursor: pointer;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #bdbdbd;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 300px;
+
+}
+
+form label {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    text-align: right;
+    justify-content: space-between;
+}
+
+form label input {
+    width: 270px;
+}

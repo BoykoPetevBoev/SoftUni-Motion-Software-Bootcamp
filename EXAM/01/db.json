@@ -1,0 +1,2015 @@
+{
+  "cars": [
+    {
+      "id": "9887e6e0-c9ca-4d6f-87ff-1bbcd3bcfc78",
+      "model": "Elantra",
+      "year": 2010,
+      "make": "Hyundai",
+      "availableColors": [
+        "Puce",
+        "Aquamarine",
+        "Purple"
+      ],
+      "suppliers": [
+        {
+          "name": "Russel LLC",
+          "email": "mfurneaux0@cloudflare.com",
+          "_id": "76621828-acd4-468f-8515-1f9ddfda6994"
+        }
+      ]
+    },
+    {
+      "id": "49baa9c1-af47-4df7-b5a1-a17546778bb5",
+      "model": "Crown Victoria",
+      "year": 2002,
+      "make": "Ford",
+      "availableColors": [
+        "Pink",
+        "Aquamarine",
+        "Crimson"
+      ],
+      "suppliers": [
+        {
+          "name": "Jenkins-Williamson",
+          "email": "eshotboulte0@storify.com",
+          "_id": "860e5023-8c09-4d54-88f2-e2064b866dbf"
+        },
+        {
+          "name": "Boyer-Rosenbaum",
+          "email": "bloftin1@jiathis.com",
+          "_id": "c2edacc9-b3dd-45b3-8b77-0b2ec91b3487"
+        }
+      ]
+    },
+    {
+      "id": "40c6c341-74f9-4cf7-9288-4b932963e9b8",
+      "model": "RL",
+      "year": 2008,
+      "make": "Acura",
+      "availableColors": [
+        "Purple",
+        "Puce",
+        "Indigo"
+      ],
+      "suppliers": [
+        {
+          "name": "Muller Inc",
+          "email": "vchue0@utexas.edu",
+          "_id": "e5f78164-1af5-4f71-8da5-6efbb97ab2bf"
+        },
+        {
+          "name": "Monahan, Considine and Cassin",
+          "email": "gkulicke1@histats.com",
+          "_id": "681b687a-5642-4ccf-890b-943ee846cab0"
+        }
+      ]
+    },
+    {
+      "id": "34669cac-58a5-4601-bab7-6d524d86499b",
+      "model": "Lumina",
+      "year": 1999,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Orange",
+        "Goldenrod",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Bergstrom-Toy",
+          "email": "mstiling0@telegraph.co.uk",
+          "_id": "6e9cf074-773e-456c-bd25-4f06fc40953d"
+        }
+      ]
+    },
+    {
+      "id": "ed395918-a5c7-4f4d-8509-8cc0cdb98a1d",
+      "model": "Truck",
+      "year": 1991,
+      "make": "Mitsubishi",
+      "availableColors": [
+        "Crimson",
+        "Orange",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Hintz, Hagenes and Kuhic",
+          "email": "jchinn0@scribd.com",
+          "_id": "426f7b92-07c1-4f55-a70f-af2ce8db9079"
+        },
+        {
+          "name": "Breitenberg LLC",
+          "email": "ljiruca1@psu.edu",
+          "_id": "b0fe7821-e660-44b8-a171-fcea2ca0d4e4"
+        }
+      ]
+    },
+    {
+      "id": "ceb1cdcf-fc92-44b4-a111-e27aa8019f8b",
+      "model": "W201",
+      "year": 1989,
+      "make": "Mercedes-Benz",
+      "availableColors": [
+        "Maroon",
+        "Orange",
+        "Red"
+      ],
+      "suppliers": [
+        {
+          "name": "Balistreri-Feil",
+          "email": "spetri0@pen.io",
+          "_id": "3beaea6f-0c33-496e-aff6-322776a04ae1"
+        },
+        {
+          "name": "Armstrong, Funk and McLaughlin",
+          "email": "mbrotherwood1@patch.com",
+          "_id": "b30ebaa0-e335-4f68-a72e-4df77b1ed496"
+        }
+      ]
+    },
+    {
+      "id": "4de9ebee-c6f2-4fb1-904d-2d468b400d9d",
+      "model": "928",
+      "year": 1985,
+      "make": "Porsche",
+      "availableColors": [
+        "Yellow",
+        "Fuscia",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Kub LLC",
+          "email": "lwarrior0@loc.gov",
+          "_id": "b66f8638-5577-49ac-9c2c-2b967f4081e7"
+        }
+      ]
+    },
+    {
+      "id": "3e1d730e-99f1-43d8-9bf0-90375480ea8e",
+      "model": "Bravada",
+      "year": 2001,
+      "make": "Oldsmobile",
+      "availableColors": [
+        "Orange",
+        "Pink",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Treutel-Hodkiewicz",
+          "email": "acarbery0@opera.com",
+          "_id": "6b5373e9-a170-4694-ac41-c4e19a8416ad"
+        },
+        {
+          "name": "Davis, Nienow and Witting",
+          "email": "lbrownsworth1@pbs.org",
+          "_id": "936ba184-cd65-4646-8a87-46030b224739"
+        }
+      ]
+    },
+    {
+      "id": "13b8732e-6742-4f83-932d-aa35f5cb8b6e",
+      "model": "5 Series",
+      "year": 1995,
+      "make": "BMW",
+      "availableColors": [
+        "Teal",
+        "Khaki",
+        "Yellow"
+      ],
+      "suppliers": [
+        {
+          "name": "Maggio, Trantow and Ledner",
+          "email": "rocurneen0@tamu.edu",
+          "_id": "02f1da4e-d9e8-4d71-a532-334951a34e66"
+        },
+        {
+          "name": "O'Conner, O'Kon and McKenzie",
+          "email": "nnewiss1@xing.com",
+          "_id": "350cae5c-d1ad-4cb5-8e75-786720722b57"
+        }
+      ]
+    },
+    {
+      "id": "91ffad93-7db8-4308-ad0f-1d298611b710",
+      "model": "Avalon",
+      "year": 2010,
+      "make": "Toyota",
+      "availableColors": [
+        "Red",
+        "Aquamarine",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Kunde-Koepp",
+          "email": "samberson0@cnet.com",
+          "_id": "abd51873-cc97-4adf-b873-64fc29e384ca"
+        },
+        {
+          "name": "Boehm LLC",
+          "email": "fmcalroy1@oracle.com",
+          "_id": "67601214-1229-495e-b17c-371678606c14"
+        }
+      ]
+    },
+    {
+      "id": "ff0aa45f-d254-4c7c-af75-863cb025db79",
+      "model": "F450",
+      "year": 2011,
+      "make": "Ford",
+      "availableColors": [
+        "Fuscia",
+        "Khaki",
+        "Yellow"
+      ],
+      "suppliers": [
+        {
+          "name": "Osinski-Smith",
+          "email": "cmcgirr0@google.nl",
+          "_id": "6970b108-7775-42d7-89f1-92580566ab59"
+        },
+        {
+          "name": "Bartell Inc",
+          "email": "bbrowell1@nps.gov",
+          "_id": "2d0a0289-08bf-4729-a48b-b635280a0ac3"
+        }
+      ]
+    },
+    {
+      "id": "a8729518-f30c-4397-91f9-920ffa55a02b",
+      "model": "Odyssey",
+      "year": 2006,
+      "make": "Honda",
+      "availableColors": [
+        "Puce",
+        "Purple",
+        "Indigo"
+      ],
+      "suppliers": [
+        {
+          "name": "Conroy and Sons",
+          "email": "msherlock0@flavors.me",
+          "_id": "aea96184-eed8-4f22-8b93-74b665955876"
+        },
+        {
+          "name": "Hagenes-Kertzmann",
+          "email": "atynewell1@dell.com",
+          "_id": "63ad86be-5e3e-4cb2-aeea-a12ad3c82464"
+        }
+      ]
+    },
+    {
+      "id": "d7e9f418-f4f0-426d-971d-94932dff904e",
+      "model": "Mountaineer",
+      "year": 2000,
+      "make": "Mercury",
+      "availableColors": [
+        "Teal",
+        "Pink",
+        "Yellow"
+      ],
+      "suppliers": [
+        {
+          "name": "Boyer, Christiansen and Breitenberg",
+          "email": "wludlem0@desdev.cn",
+          "_id": "e63ab8d8-0792-429a-8f84-fc12d7bcfca4"
+        }
+      ]
+    },
+    {
+      "id": "2ec27046-fe4f-4dc9-b920-56e02f173964",
+      "model": "3500",
+      "year": 1997,
+      "make": "GMC",
+      "availableColors": [
+        "Purple",
+        "Green",
+        "Red"
+      ],
+      "suppliers": [
+        {
+          "name": "Swift-Collins",
+          "email": "hstayt0@thetimes.co.uk",
+          "_id": "96642bd2-adf4-4410-ae70-baf1d3a21651"
+        },
+        {
+          "name": "Kutch LLC",
+          "email": "tcawsey1@indiatimes.com",
+          "_id": "350a2f9f-95ea-4884-9834-56f50f4951b8"
+        }
+      ]
+    },
+    {
+      "id": "f9d12c29-fb7f-4fef-a4c6-c236a49c6d86",
+      "model": "Quattroporte",
+      "year": 2009,
+      "make": "Maserati",
+      "availableColors": [
+        "Purple",
+        "Violet",
+        "Maroon"
+      ],
+      "suppliers": [
+        {
+          "name": "Parisian-Cassin",
+          "email": "pcompson0@imgur.com",
+          "_id": "d0fe4037-8dfd-46b8-965c-2ff9e1f7f284"
+        },
+        {
+          "name": "King, Corkery and Ondricka",
+          "email": "acastro1@simplemachines.org",
+          "_id": "318e4f43-9b5c-4d37-9c5c-671ec4fa5a50"
+        }
+      ]
+    },
+    {
+      "id": "a0d604da-62b9-46b3-b404-a6d5971a2619",
+      "model": "Pacifica",
+      "year": 2008,
+      "make": "Chrysler",
+      "availableColors": [
+        "Purple",
+        "Mauv",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Will, King and Abshire",
+          "email": "lhuzzay0@simplemachines.org",
+          "_id": "90132f32-5e31-4f73-a6d3-18158760d1aa"
+        },
+        {
+          "name": "Ankunding, Hodkiewicz and Jenkins",
+          "email": "gluby1@people.com.cn",
+          "_id": "a22e810f-70ee-4735-908a-0a997e550ffd"
+        }
+      ]
+    },
+    {
+      "id": "9db7aab6-7266-445a-955e-801985d4e625",
+      "model": "Escort",
+      "year": 2001,
+      "make": "Ford",
+      "availableColors": [
+        "Aquamarine",
+        "Aquamarine",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Kovacek LLC",
+          "email": "vyanyshev0@cafepress.com",
+          "_id": "3769fe33-35ca-4400-a881-ebc0c60c7032"
+        }
+      ]
+    },
+    {
+      "id": "1b2c644e-f1ad-4bc0-956b-767bac3685bf",
+      "model": "IS",
+      "year": 2001,
+      "make": "Lexus",
+      "availableColors": [
+        "Puce",
+        "Fuscia",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Moore, Homenick and Adams",
+          "email": "centerlein0@google.cn",
+          "_id": "7a3f518e-638a-4f81-8c5d-87652db08149"
+        },
+        {
+          "name": "Raynor, Langworth and Fadel",
+          "email": "ddebroke1@admin.ch",
+          "_id": "b3e26843-7f32-4aeb-aca6-75c1d7f4c19b"
+        }
+      ]
+    },
+    {
+      "id": "7e61f6f2-38c9-4f99-85d4-0f04e1db3de0",
+      "model": "Prius",
+      "year": 2009,
+      "make": "Toyota",
+      "availableColors": [
+        "Orange",
+        "Green",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Heaney and Sons",
+          "email": "mtilne0@vinaora.com",
+          "_id": "208c496e-f309-47eb-8d25-d008da838f7c"
+        }
+      ]
+    },
+    {
+      "id": "d21a65a8-204f-4074-9938-f82e2988390a",
+      "model": "Villager",
+      "year": 2000,
+      "make": "Mercury",
+      "availableColors": [
+        "Aquamarine",
+        "Yellow",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Thiel-Mueller",
+          "email": "clestrange0@prlog.org",
+          "_id": "508ad297-629f-459e-8fe9-4dd49020fba4"
+        },
+        {
+          "name": "Zieme-Hagenes",
+          "email": "lgrenfell1@xing.com",
+          "_id": "3df67b6f-36b3-46b3-b467-69249a9e480e"
+        }
+      ]
+    },
+    {
+      "id": "d94a4ecc-20fb-4636-8fff-8ef8bd6c4a04",
+      "model": "Expedition",
+      "year": 1997,
+      "make": "Ford",
+      "availableColors": [
+        "Yellow",
+        "Yellow",
+        "Crimson"
+      ],
+      "suppliers": [
+        {
+          "name": "Keebler-Fahey",
+          "email": "fbuzza0@wordpress.org",
+          "_id": "54482214-d845-47e3-add5-c8ab717b355c"
+        }
+      ]
+    },
+    {
+      "id": "56acad8a-23e1-49ab-b482-beca4009fae2",
+      "model": "Dynasty",
+      "year": 1992,
+      "make": "Dodge",
+      "availableColors": [
+        "Aquamarine",
+        "Orange",
+        "Orange"
+      ],
+      "suppliers": [
+        {
+          "name": "Jacobs-Bahringer",
+          "email": "dcringle0@meetup.com",
+          "_id": "7bc29a20-cae1-432d-ac9f-e2310676f806"
+        },
+        {
+          "name": "D'Amore, Bayer and Mosciski",
+          "email": "hbrotherhed1@pen.io",
+          "_id": "1b3c509c-de9e-4ed6-bf2f-00cfb8443583"
+        }
+      ]
+    },
+    {
+      "id": "8029e5bb-dcfb-479d-b3db-b248028568fa",
+      "model": "XC60",
+      "year": 2012,
+      "make": "Volvo",
+      "availableColors": [
+        "Aquamarine",
+        "Indigo",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Braun and Sons",
+          "email": "eforsyth0@admin.ch",
+          "_id": "3f379550-9ae9-4796-b12a-03f5d5e3445a"
+        },
+        {
+          "name": "Gislason-Satterfield",
+          "email": "koheagertie1@prweb.com",
+          "_id": "86a3c27b-d666-4677-be7f-337b032646b2"
+        }
+      ]
+    },
+    {
+      "id": "b7c1db1a-ca82-477d-bb7f-42f5483b0c7b",
+      "model": "Suburban 2500",
+      "year": 2002,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Aquamarine",
+        "Purple",
+        "Fuscia"
+      ],
+      "suppliers": [
+        {
+          "name": "O'Conner-Walter",
+          "email": "ajerromes0@marriott.com",
+          "_id": "00b916d1-4604-4590-a20d-66101f0a363e"
+        }
+      ]
+    },
+    {
+      "id": "97e6e50f-dd9a-4605-8a52-a386e088b937",
+      "model": "3000GT",
+      "year": 1994,
+      "make": "Mitsubishi",
+      "availableColors": [
+        "Purple",
+        "Teal",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Blanda, Keebler and Mayer",
+          "email": "adalloway0@cargocollective.com",
+          "_id": "291ba4e2-3d93-40b2-a414-0efe1688fddb"
+        }
+      ]
+    },
+    {
+      "id": "04476102-0d13-4e33-8c11-b2dad711d6a9",
+      "model": "924",
+      "year": 1988,
+      "make": "Porsche",
+      "availableColors": [
+        "Khaki",
+        "Blue",
+        "Mauv"
+      ],
+      "suppliers": [
+        {
+          "name": "Conroy-Konopelski",
+          "email": "oderr0@privacy.gov.au",
+          "_id": "84c9293f-cf5e-4efe-8915-5d397072f5c7"
+        },
+        {
+          "name": "Jerde-Zulauf",
+          "email": "telford1@pen.io",
+          "_id": "7570320d-805e-4d45-9a01-83b52a8165bb"
+        }
+      ]
+    },
+    {
+      "id": "cf23f90f-aa64-45e0-9dc8-9b487536b556",
+      "model": "LeSabre",
+      "year": 2005,
+      "make": "Buick",
+      "availableColors": [
+        "Khaki",
+        "Fuscia",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Stracke, Sporer and Wolf",
+          "email": "kmckeevers0@cdbaby.com",
+          "_id": "15acfa40-f18c-46f3-8628-041ad2c33041"
+        }
+      ]
+    },
+    {
+      "id": "730ab0a8-e702-4bd4-8627-3eca40bd2e85",
+      "model": "Maxima",
+      "year": 2001,
+      "make": "Nissan",
+      "availableColors": [
+        "Maroon",
+        "Orange",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Goodwin, Rippin and Hodkiewicz",
+          "email": "barnason0@accuweather.com",
+          "_id": "c8757940-4cc9-4258-a22c-103a3f73465e"
+        },
+        {
+          "name": "Grady LLC",
+          "email": "lgiamitti1@sourceforge.net",
+          "_id": "561e5935-5457-4d17-98e2-20dad9758c1e"
+        }
+      ]
+    },
+    {
+      "id": "12ceacf0-179f-4069-babe-a24d0d008dcf",
+      "model": "Club Wagon",
+      "year": 1992,
+      "make": "Ford",
+      "availableColors": [
+        "Blue",
+        "Puce",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Sanford, Klocko and Russel",
+          "email": "hbloomfield0@umich.edu",
+          "_id": "644cf7d0-6f6c-4157-8d39-cbcc6a3c321b"
+        },
+        {
+          "name": "Littel LLC",
+          "email": "opetts1@gmpg.org",
+          "_id": "3c0ab28f-2889-44c9-86aa-cf168f45f3a3"
+        }
+      ]
+    },
+    {
+      "id": "f696fb9c-90da-4d28-afe9-f793b4f1ea64",
+      "model": "Crown Victoria",
+      "year": 1996,
+      "make": "Ford",
+      "availableColors": [
+        "Teal",
+        "Maroon",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Crona-Lindgren",
+          "email": "gmcreynold0@pbs.org",
+          "_id": "07a00364-2fde-4101-9a46-374c7265c6ff"
+        }
+      ]
+    },
+    {
+      "id": "451e4036-7cd0-400a-8ba0-4fb2f748e2f6",
+      "model": "Camry Solara",
+      "year": 2006,
+      "make": "Toyota",
+      "availableColors": [
+        "Fuscia",
+        "Yellow",
+        "Teal"
+      ],
+      "suppliers": [
+        {
+          "name": "Muller and Sons",
+          "email": "rcolvill0@wordpress.org",
+          "_id": "b739d613-e38f-41dc-a3ef-84e2cec57185"
+        }
+      ]
+    },
+    {
+      "id": "fd44747e-188c-4761-8073-f1fddb822780",
+      "model": "Cooper Clubman",
+      "year": 2009,
+      "make": "MINI",
+      "availableColors": [
+        "Purple",
+        "Green",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Watsica, Huel and Schiller",
+          "email": "cvandale0@feedburner.com",
+          "_id": "936b20ac-f0c1-4347-a8c1-59ec3b96bb28"
+        }
+      ]
+    },
+    {
+      "id": "0012ea39-915f-4cf1-a24d-66068c9c2747",
+      "model": "RX",
+      "year": 2001,
+      "make": "Lexus",
+      "availableColors": [
+        "Green",
+        "Violet",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Mayert, Champlin and Larson",
+          "email": "goldcote0@prnewswire.com",
+          "_id": "0b50921a-4aa7-4f21-a825-98f511b7ea1d"
+        }
+      ]
+    },
+    {
+      "id": "909b91ff-d876-4eb7-ab22-ebba9776c86c",
+      "model": "Sierra 1500",
+      "year": 2004,
+      "make": "GMC",
+      "availableColors": [
+        "Purple",
+        "Mauv",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Gaylord LLC",
+          "email": "lgodding0@etsy.com",
+          "_id": "c7da8dbf-cecf-4afb-ad26-4c298d4a84a0"
+        },
+        {
+          "name": "Kshlerin LLC",
+          "email": "mmowett1@ucoz.ru",
+          "_id": "bfd813f9-ff99-4a8d-b705-946d1054fb6c"
+        }
+      ]
+    },
+    {
+      "id": "d5fbece9-c443-4b4a-9ea8-ef7744911e71",
+      "model": "Exige",
+      "year": 2012,
+      "make": "Lotus",
+      "availableColors": [
+        "Aquamarine",
+        "Aquamarine",
+        "Indigo"
+      ],
+      "suppliers": [
+        {
+          "name": "Mertz, Ernser and Daniel",
+          "email": "marcher0@instagram.com",
+          "_id": "021a0761-7e58-48c0-9539-5ed3f3b60180"
+        },
+        {
+          "name": "Kuhn and Sons",
+          "email": "cfaulkener1@liveinternet.ru",
+          "_id": "b927b518-8333-430a-9bbe-d6785f93e2a8"
+        }
+      ]
+    },
+    {
+      "id": "1ac62139-ed5e-4d16-9e25-b97e756aacb6",
+      "model": "Jetta",
+      "year": 2010,
+      "make": "Volkswagen",
+      "availableColors": [
+        "Turquoise",
+        "Blue",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "VonRueden-Walker",
+          "email": "agaither0@google.co.jp",
+          "_id": "ff5293c3-72e1-40e7-a4a7-1073c03de6df"
+        }
+      ]
+    },
+    {
+      "id": "21efdb1f-e9b5-44b3-8492-cf9d8a6fb86d",
+      "model": "Sundance",
+      "year": 1993,
+      "make": "Plymouth",
+      "availableColors": [
+        "Teal",
+        "Crimson",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Kertzmann, Daugherty and Ryan",
+          "email": "fmowen0@paypal.com",
+          "_id": "3855bbec-159f-4f8b-9f5f-54f5e5b70df9"
+        },
+        {
+          "name": "Beahan Group",
+          "email": "omanchett1@blog.com",
+          "_id": "c11d2bf9-3885-4d72-a8eb-0d89660a15ee"
+        }
+      ]
+    },
+    {
+      "id": "67b14d02-451b-489f-8eb7-fca40363aafb",
+      "model": "Camry Solara",
+      "year": 2007,
+      "make": "Toyota",
+      "availableColors": [
+        "Aquamarine",
+        "Purple",
+        "Maroon"
+      ],
+      "suppliers": [
+        {
+          "name": "Schmeler-Mosciski",
+          "email": "byerborn0@seesaa.net",
+          "_id": "6fa72028-3c98-4796-b5d9-3e4ee1b352c8"
+        }
+      ]
+    },
+    {
+      "id": "85aae527-6a42-440a-ab08-794d629b18cc",
+      "model": "Murciélago",
+      "year": 2003,
+      "make": "Lamborghini",
+      "availableColors": [
+        "Indigo",
+        "Purple",
+        "Purple"
+      ],
+      "suppliers": [
+        {
+          "name": "Lockman-Kihn",
+          "email": "amackill0@unesco.org",
+          "_id": "aa38f386-66ae-400b-993f-9a18efadcb8a"
+        }
+      ]
+    },
+    {
+      "id": "66389087-216e-4c2a-8350-cb13c9854da3",
+      "model": "Venture",
+      "year": 1998,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Violet",
+        "Aquamarine",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Watsica Group",
+          "email": "ljirek0@cyberchimps.com",
+          "_id": "ee62e24f-78a1-48ba-98b4-f5b023a108ee"
+        },
+        {
+          "name": "Denesik, Beahan and Leffler",
+          "email": "mborrows1@mashable.com",
+          "_id": "3ac62a71-a4f8-426d-bb05-2be95281cfbb"
+        }
+      ]
+    },
+    {
+      "id": "a9702a5b-e299-4c4e-b0f3-c51cd1512c4a",
+      "model": "Elise",
+      "year": 2011,
+      "make": "Lotus",
+      "availableColors": [
+        "Mauv",
+        "Teal",
+        "Blue"
+      ],
+      "suppliers": [
+        {
+          "name": "Kirlin-Kshlerin",
+          "email": "cknock0@cam.ac.uk",
+          "_id": "df97368e-ba54-47e3-a1fe-8b57816810bf"
+        }
+      ]
+    },
+    {
+      "id": "056fb1a5-669b-49a1-af93-ce3c39dccda2",
+      "model": "3500",
+      "year": 1995,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Mauv",
+        "Violet",
+        "Blue"
+      ],
+      "suppliers": [
+        {
+          "name": "Paucek, Robel and Bosco",
+          "email": "ftaffee0@timesonline.co.uk",
+          "_id": "85f06080-48f0-47be-8b34-d29c7597c84b"
+        },
+        {
+          "name": "Anderson, Gaylord and Satterfield",
+          "email": "rcoulsen1@youku.com",
+          "_id": "8543ce36-3530-435f-bcb2-acf2cd248da7"
+        }
+      ]
+    },
+    {
+      "id": "2fbc16b8-1c66-4bd6-a6c0-43e2e3145600",
+      "model": "FX",
+      "year": 2008,
+      "make": "Infiniti",
+      "availableColors": [
+        "Pink",
+        "Red",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Paucek-Durgan",
+          "email": "krapsey0@hhs.gov",
+          "_id": "e891ea92-a648-4a33-a9bd-6aa17be56bf9"
+        },
+        {
+          "name": "Schimmel-Williamson",
+          "email": "acaldicot1@washington.edu",
+          "_id": "f8144b26-1a06-44db-a647-659a0cdcb751"
+        }
+      ]
+    },
+    {
+      "id": "64661dcf-98ce-4270-9a2a-408883190cd6",
+      "model": "Suburban 2500",
+      "year": 1996,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Violet",
+        "Red",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "Koepp, Shanahan and Olson",
+          "email": "lclemintoni0@telegraph.co.uk",
+          "_id": "e79eeeb2-510e-4def-828c-df1443f85419"
+        }
+      ]
+    },
+    {
+      "id": "16763822-5ac2-4b7f-9e43-6f350ff8d66b",
+      "model": "Azure",
+      "year": 2006,
+      "make": "Bentley",
+      "availableColors": [
+        "Goldenrod",
+        "Green",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Hansen Inc",
+          "email": "jfeatenby0@diigo.com",
+          "_id": "998a0e4d-d24d-4005-af6f-b99794978262"
+        }
+      ]
+    },
+    {
+      "id": "3a9ee03a-d490-44eb-8875-959481a4a2ef",
+      "model": "9-5",
+      "year": 2002,
+      "make": "Saab",
+      "availableColors": [
+        "Teal",
+        "Crimson",
+        "Yellow"
+      ],
+      "suppliers": [
+        {
+          "name": "Parker, Ebert and Rath",
+          "email": "hreichartz0@spiegel.de",
+          "_id": "3609e302-1228-4295-ba4e-946951a90901"
+        }
+      ]
+    },
+    {
+      "id": "90b8b083-6b26-46ae-a183-c291e71a06d6",
+      "model": "Rondo",
+      "year": 2007,
+      "make": "Kia",
+      "availableColors": [
+        "Pink",
+        "Khaki",
+        "Mauv"
+      ],
+      "suppliers": [
+        {
+          "name": "Bogan-Hartmann",
+          "email": "jhallwell0@wikimedia.org",
+          "_id": "102abd03-8e4f-4eca-9458-db692215c8aa"
+        },
+        {
+          "name": "Orn, Herzog and Brown",
+          "email": "ldaid1@mayoclinic.com",
+          "_id": "12e34932-2f27-4c77-930d-8c499f4354e6"
+        }
+      ]
+    },
+    {
+      "id": "d73119b5-b93c-4366-b17a-ccf77919ff0f",
+      "model": "GT",
+      "year": 2005,
+      "make": "Ford",
+      "availableColors": [
+        "Maroon",
+        "Turquoise",
+        "Maroon"
+      ],
+      "suppliers": [
+        {
+          "name": "Johnston-Cremin",
+          "email": "azoppie0@e-recht24.de",
+          "_id": "b718941d-ceb7-48db-88de-02769249bbec"
+        },
+        {
+          "name": "Beatty-Durgan",
+          "email": "obridger1@washingtonpost.com",
+          "_id": "64bafef7-5594-4a56-a91b-3b46c7012129"
+        }
+      ]
+    },
+    {
+      "id": "0791b78a-cdfa-4af0-b74e-74ce33a404a3",
+      "model": "Neon",
+      "year": 1998,
+      "make": "Dodge",
+      "availableColors": [
+        "Purple",
+        "Fuscia",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Goyette-Ward",
+          "email": "mhabbert0@state.tx.us",
+          "_id": "bb3c94a2-46ea-4022-a381-b64d1243eb89"
+        }
+      ]
+    },
+    {
+      "id": "346f0eb6-680b-434d-af12-dd0a817d7a5b",
+      "model": "Panamera",
+      "year": 2012,
+      "make": "Porsche",
+      "availableColors": [
+        "Purple",
+        "Blue",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "O'Connell, Jacobson and DuBuque",
+          "email": "cbrackstone0@sitemeter.com",
+          "_id": "24bfd450-dbac-4426-b21d-2fef9687cf23"
+        },
+        {
+          "name": "Gorczany, Schinner and Beahan",
+          "email": "svouls1@topsy.com",
+          "_id": "679820a2-c06a-4ecf-b235-5ce92b248142"
+        }
+      ]
+    },
+    {
+      "id": "35c076a3-efad-4e27-853e-74f32da01e81",
+      "model": "Tahoe",
+      "year": 2012,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Puce",
+        "Khaki",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Schimmel-O'Conner",
+          "email": "jmcquirk0@youku.com",
+          "_id": "12bf6c74-c7a5-4dd1-8c66-df077bc783a0"
+        }
+      ]
+    },
+    {
+      "id": "d5b798e5-3d11-45e0-9a83-26871ac763d0",
+      "model": "Astro",
+      "year": 1999,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Yellow",
+        "Goldenrod",
+        "Crimson"
+      ],
+      "suppliers": [
+        {
+          "name": "Green and Sons",
+          "email": "bdance0@ezinearticles.com",
+          "_id": "a64e10fe-3332-4d30-95af-3d52dadb0bff"
+        },
+        {
+          "name": "Stroman, Wisozk and Dibbert",
+          "email": "ckeers1@paginegialle.it",
+          "_id": "54aca11f-d3d7-4375-92dd-0a9a97bda71b"
+        }
+      ]
+    },
+    {
+      "id": "02be0d3e-d34e-4952-ac22-b2b606425cb3",
+      "model": "S4",
+      "year": 2008,
+      "make": "Audi",
+      "availableColors": [
+        "Aquamarine",
+        "Aquamarine",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Ward, Swift and Glover",
+          "email": "nautry0@wordpress.com",
+          "_id": "7e6d2314-5338-43e8-8c6b-bedd40fd4239"
+        }
+      ]
+    },
+    {
+      "id": "4cb2719b-e57d-417a-bf8c-c43b97917baa",
+      "model": "Aero 8",
+      "year": 2007,
+      "make": "Morgan",
+      "availableColors": [
+        "Green",
+        "Mauv",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "Johns, Bradtke and Dietrich",
+          "email": "mbrunger0@cam.ac.uk",
+          "_id": "34684700-ea21-449d-9e82-44962c3c0776"
+        }
+      ]
+    },
+    {
+      "id": "070f293a-e948-418c-ae22-df4190fb6568",
+      "model": "Colt",
+      "year": 1989,
+      "make": "Dodge",
+      "availableColors": [
+        "Mauv",
+        "Yellow",
+        "Teal"
+      ],
+      "suppliers": [
+        {
+          "name": "Bergnaum, Feest and Goodwin",
+          "email": "cfritz0@yale.edu",
+          "_id": "7c59595c-84cc-4275-afac-c2f6eed02527"
+        }
+      ]
+    },
+    {
+      "id": "36cc980a-2694-4b32-b9ca-25dc1a04d638",
+      "model": "CL",
+      "year": 2003,
+      "make": "Acura",
+      "availableColors": [
+        "Fuscia",
+        "Indigo",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "D'Amore-Kilback",
+          "email": "gtithecote0@craigslist.org",
+          "_id": "dfc1f0be-1fcd-4fb4-ac88-446e55b7d737"
+        }
+      ]
+    },
+    {
+      "id": "848edc99-8b4e-4799-9f5e-d888b0e195a0",
+      "model": "Starion",
+      "year": 1985,
+      "make": "Mitsubishi",
+      "availableColors": [
+        "Orange",
+        "Fuscia",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Lowe LLC",
+          "email": "dstainbridge0@fotki.com",
+          "_id": "1b3bfbfc-01c9-4d1b-9229-d92300ab562a"
+        },
+        {
+          "name": "Lebsack LLC",
+          "email": "nschenfisch1@omniture.com",
+          "_id": "b37809cf-1e06-49f2-89c3-1c18db2220c4"
+        }
+      ]
+    },
+    {
+      "id": "eee59e0c-2181-4aba-9250-477ba15be44a",
+      "model": "Rainier",
+      "year": 2006,
+      "make": "Buick",
+      "availableColors": [
+        "Purple",
+        "Purple",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Lind and Sons",
+          "email": "hcrosher0@wp.com",
+          "_id": "4db38abc-33a3-4b43-9cb0-21015f8d3a4e"
+        },
+        {
+          "name": "Halvorson and Sons",
+          "email": "mperfect1@loc.gov",
+          "_id": "2784667b-984c-4773-a76c-d74eda556ccf"
+        }
+      ]
+    },
+    {
+      "id": "4ea57755-2014-4eff-a89e-9f9cf4b75a2b",
+      "model": "Avanti",
+      "year": 1964,
+      "make": "Studebaker",
+      "availableColors": [
+        "Green",
+        "Fuscia",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Bednar-Goldner",
+          "email": "afoxall0@mayoclinic.com",
+          "_id": "8919cb8f-361f-40b0-a006-b64f54df5eb2"
+        }
+      ]
+    },
+    {
+      "id": "1ddb9b36-9e17-4ed6-aec0-8b75281eca4b",
+      "model": "Quattroporte",
+      "year": 1984,
+      "make": "Maserati",
+      "availableColors": [
+        "Mauv",
+        "Orange",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Howell Inc",
+          "email": "azapatero0@ning.com",
+          "_id": "ac78e1fa-b999-4ed6-b6b1-ad637f32ef72"
+        },
+        {
+          "name": "Bechtelar-O'Reilly",
+          "email": "qmound1@ihg.com",
+          "_id": "f65d2ec6-443c-456b-9151-048aa2bf1c19"
+        }
+      ]
+    },
+    {
+      "id": "98cc6f8b-3fe7-435e-9e67-aabafcf689cf",
+      "model": "Tracker",
+      "year": 2000,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Fuscia",
+        "Blue",
+        "Orange"
+      ],
+      "suppliers": [
+        {
+          "name": "Kunze-Kub",
+          "email": "ghoyle0@clickbank.net",
+          "_id": "a63b5242-ae6c-4528-b7fd-463055300ed0"
+        }
+      ]
+    },
+    {
+      "id": "d4b1e984-69c7-4887-a92e-035bb2ebb078",
+      "model": "350Z",
+      "year": 2009,
+      "make": "Nissan",
+      "availableColors": [
+        "Fuscia",
+        "Violet",
+        "Crimson"
+      ],
+      "suppliers": [
+        {
+          "name": "Lehner Group",
+          "email": "sscriver0@wordpress.com",
+          "_id": "1b5a90ce-61f4-420f-b052-2b7fa11bd68c"
+        },
+        {
+          "name": "Hintz and Sons",
+          "email": "jgebbie1@whitehouse.gov",
+          "_id": "73f1bc4d-b4f7-4eba-bff4-96fe8d2b807f"
+        }
+      ]
+    },
+    {
+      "id": "2270317a-bd28-4fb2-b924-ff79cb63ce5b",
+      "model": "Diamante",
+      "year": 1993,
+      "make": "Mitsubishi",
+      "availableColors": [
+        "Crimson",
+        "Yellow",
+        "Khaki"
+      ],
+      "suppliers": [
+        {
+          "name": "Stark, Hayes and Shields",
+          "email": "nnewell0@jalbum.net",
+          "_id": "1d134068-ad52-4d9f-b56d-b4bdf9a0cd43"
+        }
+      ]
+    },
+    {
+      "id": "ae33ee8f-a5ef-402e-9e3a-b60349709d42",
+      "model": "Cutlass Supreme",
+      "year": 1997,
+      "make": "Oldsmobile",
+      "availableColors": [
+        "Orange",
+        "Turquoise",
+        "Mauv"
+      ],
+      "suppliers": [
+        {
+          "name": "Prosacco Inc",
+          "email": "craccio0@unicef.org",
+          "_id": "a3b4c5c7-c874-4614-9344-16014165d819"
+        },
+        {
+          "name": "McLaughlin-Schroeder",
+          "email": "cleatherbarrow1@nyu.edu",
+          "_id": "f79ecccb-7a76-4967-87e6-b81673a0c637"
+        }
+      ]
+    },
+    {
+      "id": "4a6ac37f-dbba-49b1-a013-c98724d8184c",
+      "model": "Enclave",
+      "year": 2008,
+      "make": "Buick",
+      "availableColors": [
+        "Crimson",
+        "Yellow",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Kessler-Schuppe",
+          "email": "rgaley0@miibeian.gov.cn",
+          "_id": "2b8488ff-dbe5-4ef0-8b1f-0a339d9d747e"
+        }
+      ]
+    },
+    {
+      "id": "998d0af9-8ec9-4860-b7c1-67b6e3419ff9",
+      "model": "Sebring",
+      "year": 2006,
+      "make": "Chrysler",
+      "availableColors": [
+        "Puce",
+        "Indigo",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Kohler-Luettgen",
+          "email": "mgillman0@statcounter.com",
+          "_id": "83f5a8d5-ec0f-4008-9cca-45ddb39c4787"
+        }
+      ]
+    },
+    {
+      "id": "c896ea78-ab21-4515-a41c-30e77d18a434",
+      "model": "Eldorado",
+      "year": 1993,
+      "make": "Cadillac",
+      "availableColors": [
+        "Violet",
+        "Maroon",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Beier Group",
+          "email": "egeffen0@mapy.cz",
+          "_id": "79482877-ca3a-4c98-ad56-9982967226d3"
+        },
+        {
+          "name": "Wiza and Sons",
+          "email": "lcholomin1@t.co",
+          "_id": "e5c3d88c-1d1a-4394-be81-db049fd0cbce"
+        }
+      ]
+    },
+    {
+      "id": "12753ab3-f41a-45ee-9abd-ea5950b70fec",
+      "model": "F-Series",
+      "year": 1985,
+      "make": "Ford",
+      "availableColors": [
+        "Fuscia",
+        "Khaki",
+        "Crimson"
+      ],
+      "suppliers": [
+        {
+          "name": "Considine-Reinger",
+          "email": "pvereker0@studiopress.com",
+          "_id": "16d4e21d-4f36-4367-82d4-bd56b9e64ea8"
+        }
+      ]
+    },
+    {
+      "id": "facef558-acc4-4037-9eb4-0731f37e3909",
+      "model": "LS",
+      "year": 2004,
+      "make": "Lincoln",
+      "availableColors": [
+        "Fuscia",
+        "Khaki",
+        "Blue"
+      ],
+      "suppliers": [
+        {
+          "name": "Mosciski LLC",
+          "email": "rhallmark0@odnoklassniki.ru",
+          "_id": "ef03e295-b3df-4020-85c4-fa93d2c0123a"
+        },
+        {
+          "name": "West-Mraz",
+          "email": "snorthill1@guardian.co.uk",
+          "_id": "87036c14-5818-4002-9b2e-4fdfafb44bab"
+        }
+      ]
+    },
+    {
+      "id": "b67b5efe-b9c3-4a67-9198-2ee4b1ad2dc6",
+      "model": "VUE",
+      "year": 2009,
+      "make": "Saturn",
+      "availableColors": [
+        "Pink",
+        "Blue",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Lueilwitz, Beatty and Dietrich",
+          "email": "amaclleese0@ihg.com",
+          "_id": "1747d2f7-070a-4e95-a35e-2a81bfb640ff"
+        },
+        {
+          "name": "Lemke and Sons",
+          "email": "bmorling1@oracle.com",
+          "_id": "b17a5dab-befb-4043-b0b7-2ed8f0bb891e"
+        }
+      ]
+    },
+    {
+      "id": "e27d1030-a118-4c00-8028-d9fc6d654d68",
+      "model": "Quest",
+      "year": 1997,
+      "make": "Nissan",
+      "availableColors": [
+        "Crimson",
+        "Khaki",
+        "Teal"
+      ],
+      "suppliers": [
+        {
+          "name": "Stamm, O'Hara and Brakus",
+          "email": "jebbotts0@google.pl",
+          "_id": "b009f5e0-012a-4f44-8c96-08c7042293b9"
+        }
+      ]
+    },
+    {
+      "id": "18b60023-3e49-4ac2-9904-0840ca66ed11",
+      "model": "Previa",
+      "year": 1995,
+      "make": "Toyota",
+      "availableColors": [
+        "Goldenrod",
+        "Mauv",
+        "Purple"
+      ],
+      "suppliers": [
+        {
+          "name": "Klein and Sons",
+          "email": "gmacconnechie0@usgs.gov",
+          "_id": "21691603-fb43-49a0-9ae0-313ce0f6802c"
+        }
+      ]
+    },
+    {
+      "id": "56ccac88-2fd8-479c-9dc1-0f80de2cf01a",
+      "model": "Jetta",
+      "year": 2003,
+      "make": "Volkswagen",
+      "availableColors": [
+        "Purple",
+        "Blue",
+        "Red"
+      ],
+      "suppliers": [
+        {
+          "name": "Tillman-Kuhic",
+          "email": "kstormont0@mayoclinic.com",
+          "_id": "2ad85ef3-86ea-4447-b102-01bd1cebaf94"
+        }
+      ]
+    },
+    {
+      "id": "899ced7c-949d-44b0-85e3-1f1100a1f41d",
+      "model": "Rio",
+      "year": 2002,
+      "make": "Kia",
+      "availableColors": [
+        "Purple",
+        "Teal",
+        "Green"
+      ],
+      "suppliers": [
+        {
+          "name": "Breitenberg and Sons",
+          "email": "jskyme0@baidu.com",
+          "_id": "651a6e10-4bb9-44e1-8edf-7df22dac4cc8"
+        }
+      ]
+    },
+    {
+      "id": "7b471b75-09c7-4bbf-bf63-58c028726601",
+      "model": "S-Series",
+      "year": 1992,
+      "make": "Saturn",
+      "availableColors": [
+        "Indigo",
+        "Blue",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Dietrich Inc",
+          "email": "helcott0@go.com",
+          "_id": "59eaf4d0-639b-40f0-8202-c922e917e447"
+        },
+        {
+          "name": "Huels Inc",
+          "email": "lmouat1@example.com",
+          "_id": "ad337d56-9a60-41d8-a1fc-90730402cda3"
+        }
+      ]
+    },
+    {
+      "id": "692269f5-18a2-4c1a-a2a9-b756770ebca9",
+      "model": "Rainier",
+      "year": 2006,
+      "make": "Buick",
+      "availableColors": [
+        "Blue",
+        "Aquamarine",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Bruen-Schaden",
+          "email": "sdifranceschi0@stumbleupon.com",
+          "_id": "f65bfa60-a404-4a3e-8442-bd5cd9b7f574"
+        },
+        {
+          "name": "Zemlak Inc",
+          "email": "mlazare1@microsoft.com",
+          "_id": "9b4c1fd4-00e7-4cf9-b81e-b8073b1a9cbf"
+        }
+      ]
+    },
+    {
+      "id": "db90bd5e-5375-47fd-a437-4523fb63e522",
+      "model": "MX-6",
+      "year": 1993,
+      "make": "Mazda",
+      "availableColors": [
+        "Aquamarine",
+        "Violet",
+        "Maroon"
+      ],
+      "suppliers": [
+        {
+          "name": "Waters LLC",
+          "email": "jhubbuck0@mlb.com",
+          "_id": "b0fe14cf-a25f-4272-b586-c038d832ad91"
+        }
+      ]
+    },
+    {
+      "id": "1a62b953-3079-4441-b96d-0c68b60cc695",
+      "model": "MR2",
+      "year": 2004,
+      "make": "Toyota",
+      "availableColors": [
+        "Indigo",
+        "Fuscia",
+        "Mauv"
+      ],
+      "suppliers": [
+        {
+          "name": "Fahey, Abshire and Runte",
+          "email": "jruhben0@princeton.edu",
+          "_id": "da00a593-25ec-479a-9f22-b404cf9ee002"
+        }
+      ]
+    },
+    {
+      "id": "202ec5b3-dd75-4868-bb32-19fd1996bc17",
+      "model": "Aerostar",
+      "year": 1995,
+      "make": "Ford",
+      "availableColors": [
+        "Puce",
+        "Blue",
+        "Red"
+      ],
+      "suppliers": [
+        {
+          "name": "Effertz, Green and Jast",
+          "email": "wcasarino0@soup.io",
+          "_id": "d709a0ef-2f83-4987-92e6-2b4d81a29d68"
+        },
+        {
+          "name": "Muller, Hammes and Harris",
+          "email": "pjados1@alibaba.com",
+          "_id": "12185b88-26ae-443c-871a-5d81eb9972f8"
+        }
+      ]
+    },
+    {
+      "id": "fc279734-2222-4905-a842-a65acdd67c43",
+      "model": "Ranger",
+      "year": 1989,
+      "make": "Ford",
+      "availableColors": [
+        "Teal",
+        "Red",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "Purdy and Sons",
+          "email": "ocarlow0@live.com",
+          "_id": "cf468972-1851-43af-9880-ea862401172f"
+        }
+      ]
+    },
+    {
+      "id": "32461630-87de-4ca1-b247-84218225b09f",
+      "model": "Grand Cherokee",
+      "year": 2009,
+      "make": "Jeep",
+      "availableColors": [
+        "Turquoise",
+        "Puce",
+        "Mauv"
+      ],
+      "suppliers": [
+        {
+          "name": "Hermann-Lehner",
+          "email": "anunson0@elpais.com",
+          "_id": "5f269d01-3051-46f7-b70e-87da395a9763"
+        },
+        {
+          "name": "Hagenes Group",
+          "email": "lbycraft1@dot.gov",
+          "_id": "c0a2c22a-9a9a-4118-bd2c-7ed9333399e8"
+        }
+      ]
+    },
+    {
+      "id": "fd35254c-8ed9-4a94-93ec-30c21050a25e",
+      "model": "Range Rover",
+      "year": 1995,
+      "make": "Land Rover",
+      "availableColors": [
+        "Crimson",
+        "Goldenrod",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Witting, Bernhard and Welch",
+          "email": "gbraund0@house.gov",
+          "_id": "aaff8153-0476-40f0-8e30-8a220206f06f"
+        },
+        {
+          "name": "Schaden, Renner and Mann",
+          "email": "sthemann1@netscape.com",
+          "_id": "925ced0e-7b1b-40a7-9385-a5c4fce29b2a"
+        }
+      ]
+    },
+    {
+      "id": "3af12504-0313-4120-b77c-5ff726a67959",
+      "model": "940",
+      "year": 1994,
+      "make": "Volvo",
+      "availableColors": [
+        "Mauv",
+        "Puce",
+        "Indigo"
+      ],
+      "suppliers": [
+        {
+          "name": "Nienow, Schmidt and Bergstrom",
+          "email": "eaveries0@cdc.gov",
+          "_id": "98d927ec-22cb-450a-9413-f3fa71ff18f8"
+        },
+        {
+          "name": "McCullough-Lubowitz",
+          "email": "dnarup1@mail.ru",
+          "_id": "06287d22-1ca8-4135-bcc7-719fee69d3cd"
+        }
+      ]
+    },
+    {
+      "id": "f553a3cd-6e2e-4719-905c-b4faaa5364d9",
+      "model": "Continental",
+      "year": 2002,
+      "make": "Lincoln",
+      "availableColors": [
+        "Crimson",
+        "Pink",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "Renner, Stanton and Stroman",
+          "email": "hconfait0@blogtalkradio.com",
+          "_id": "064d4c6f-180c-4132-9835-55b174d07f2d"
+        },
+        {
+          "name": "Lueilwitz, Kuhn and Thompson",
+          "email": "cmaytum1@seattletimes.com",
+          "_id": "4b087d04-f477-426e-8b7e-6848c81aaf8d"
+        }
+      ]
+    },
+    {
+      "id": "fba3a914-b7eb-4a6c-9502-83c26d4325e7",
+      "model": "Crown Victoria",
+      "year": 2009,
+      "make": "Ford",
+      "availableColors": [
+        "Puce",
+        "Maroon",
+        "Violet"
+      ],
+      "suppliers": [
+        {
+          "name": "Volkman and Sons",
+          "email": "rlorenc0@google.de",
+          "_id": "4c471512-d1a8-4f69-b6e9-ca2367eb2c9a"
+        },
+        {
+          "name": "Gleason and Sons",
+          "email": "dhayhoe1@kickstarter.com",
+          "_id": "3366f417-9883-4945-8124-c818ab4e406f"
+        }
+      ]
+    },
+    {
+      "id": "3af2a68c-915b-4f29-bce1-52c1f8a553f0",
+      "model": "9-5",
+      "year": 2008,
+      "make": "Saab",
+      "availableColors": [
+        "Goldenrod",
+        "Blue",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Corkery and Sons",
+          "email": "rdutson0@washingtonpost.com",
+          "_id": "ea75e149-af5f-488f-9ce7-957af4621b19"
+        }
+      ]
+    },
+    {
+      "id": "b7c132b8-4b2e-46d6-99dc-b7b1ea0adfc5",
+      "model": "Swift",
+      "year": 2001,
+      "make": "Suzuki",
+      "availableColors": [
+        "Turquoise",
+        "Goldenrod",
+        "Puce"
+      ],
+      "suppliers": [
+        {
+          "name": "Little-Klocko",
+          "email": "yglaves0@unesco.org",
+          "_id": "f9de719b-d1e7-4740-b1f7-d80ba3d57058"
+        },
+        {
+          "name": "Osinski Group",
+          "email": "vbaroch1@meetup.com",
+          "_id": "2ec9bb52-7a1d-4060-bc98-e2a554425f5d"
+        }
+      ]
+    },
+    {
+      "id": "a1a54a9a-0cbe-4171-8d00-b9ab7358e244",
+      "model": "Mazda6 5-Door",
+      "year": 2006,
+      "make": "Mazda",
+      "availableColors": [
+        "Indigo",
+        "Fuscia",
+        "Aquamarine"
+      ],
+      "suppliers": [
+        {
+          "name": "Legros, Larson and Schmidt",
+          "email": "steers0@mail.ru",
+          "_id": "1575b3b9-53a1-4929-a6b0-1cfba8eb1740"
+        },
+        {
+          "name": "Carter, Borer and Weissnat",
+          "email": "cescolme1@g.co",
+          "_id": "0364c9d2-8450-4b21-ba37-42646175bf9f"
+        }
+      ]
+    },
+    {
+      "id": "7146035b-0a6c-4bb0-bc03-5caa1f66d820",
+      "model": "Suburban 2500",
+      "year": 2008,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Fuscia",
+        "Khaki",
+        "Goldenrod"
+      ],
+      "suppliers": [
+        {
+          "name": "Beatty Group",
+          "email": "vmugridge0@com.com",
+          "_id": "308a0943-d069-4c58-8c8f-c966f89071ac"
+        }
+      ]
+    },
+    {
+      "id": "aa7d7dc7-d291-4d19-aa93-497424f879cb",
+      "model": "Sportvan G20",
+      "year": 1993,
+      "make": "Chevrolet",
+      "availableColors": [
+        "Blue",
+        "Turquoise",
+        "Blue"
+      ],
+      "suppliers": [
+        {
+          "name": "Eichmann-Ledner",
+          "email": "pisworth0@cdbaby.com",
+          "_id": "9cd21a5f-916c-481f-bea9-f2a72c8c0741"
+        },
+        {
+          "name": "Terry and Sons",
+          "email": "ematthewes1@wisc.edu",
+          "_id": "e1f89575-546f-4e73-885e-4f86a790a995"
+        }
+      ]
+    },
+    {
+      "id": "5455ca39-781e-42b2-91be-4f8abdfc0099",
+      "model": "Ram Van 3500",
+      "year": 1999,
+      "make": "Dodge",
+      "availableColors": [
+        "Purple",
+        "Violet",
+        "Yellow"
+      ],
+      "suppliers": [
+        {
+          "name": "Rippin, Olson and Lakin",
+          "email": "iantonsson0@ucsd.edu",
+          "_id": "b7aa6344-dc2c-43fe-8b89-3949de8bb8bc"
+        },
+        {
+          "name": "Wisoky-Klocko",
+          "email": "emusslewhite1@berkeley.edu",
+          "_id": "9bc702e3-9941-4c29-9d60-944f1224e9e2"
+        }
+      ]
+    },
+    {
+      "id": "95a32052-cf41-4240-bfa9-0b09dadd869f",
+      "model": "A8",
+      "year": 1998,
+      "make": "Audi",
+      "availableColors": [
+        "Crimson",
+        "Yellow",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "McGlynn Group",
+          "email": "gcamosso0@squidoo.com",
+          "_id": "68d6f4b7-e328-4868-8610-9b665c46a186"
+        }
+      ]
+    },
+    {
+      "id": "03d4a015-edcf-4c18-ad20-21928a806859",
+      "model": "Eclipse",
+      "year": 1994,
+      "make": "Mitsubishi",
+      "availableColors": [
+        "Fuscia",
+        "Puce",
+        "Teal"
+      ],
+      "suppliers": [
+        {
+          "name": "Kirlin LLC",
+          "email": "jwipper0@java.com",
+          "_id": "758e7c6d-4215-4e86-86a8-df036a9a859b"
+        }
+      ]
+    },
+    {
+      "id": "6e78ceb6-d399-434d-bd57-7b3a7c96ab9c",
+      "model": "Outback",
+      "year": 2003,
+      "make": "Subaru",
+      "availableColors": [
+        "Purple",
+        "Maroon",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Smith, Grimes and Denesik",
+          "email": "ccalfe0@nba.com",
+          "_id": "9b54a3c5-fe52-4ff0-b0df-c84bbd795e79"
+        },
+        {
+          "name": "Durgan-Kilback",
+          "email": "rfeast1@yale.edu",
+          "_id": "a4013bb4-f1a7-4a7b-887f-0000e7a55b30"
+        }
+      ]
+    },
+    {
+      "id": "b85edc74-02f6-47cc-8885-91a4f6a80f93",
+      "model": "NV1500",
+      "year": 2012,
+      "make": "Nissan",
+      "availableColors": [
+        "Turquoise",
+        "Pink",
+        "Turquoise"
+      ],
+      "suppliers": [
+        {
+          "name": "Lehner, Stroman and Becker",
+          "email": "tscrease0@goo.gl",
+          "_id": "7fdb2e39-2e59-4b4c-932e-8c0275a6ba2e"
+        },
+        {
+          "name": "Daugherty-Crooks",
+          "email": "khefford1@tmall.com",
+          "_id": "5d1f16a7-94b7-41dc-90d7-109af2d71df5"
+        }
+      ]
+    },
+    {
+      "id": "c4ff1cd8-7137-40f2-a03c-e53e34d9e145",
+      "model": "S40",
+      "year": 2002,
+      "make": "Volvo",
+      "availableColors": [
+        "Goldenrod",
+        "Indigo",
+        "Pink"
+      ],
+      "suppliers": [
+        {
+          "name": "Ward, Streich and Murray",
+          "email": "cmontgomery0@jalbum.net",
+          "_id": "d0ce6ad9-4ba5-4fc0-8037-3c4e70e027c1"
+        },
+        {
+          "name": "McGlynn-Ernser",
+          "email": "cparry1@businessweek.com",
+          "_id": "b537f5e5-b5d5-4808-883d-0ebc32ee4225"
+        }
+      ]
+    },
+    {
+      "id": "3e78b928-d800-4497-84a6-9edfc3054ca0",
+      "model": "Grand Cherokee",
+      "year": 2012,
+      "make": "Jeep",
+      "availableColors": [
+        "Indigo",
+        "Khaki",
+        "Blue"
+      ],
+      "suppliers": [
+        {
+          "name": "Stracke Inc",
+          "email": "zheyworth0@yelp.com",
+          "_id": "9f73133a-90f8-407a-b902-4e0b8f1159c8"
+        },
+        {
+          "name": "Carroll and Sons",
+          "email": "bludee1@ibm.com",
+          "_id": "199a874f-97f0-4810-8718-fbc0a3e85f45"
+        }
+      ]
+    }
+  ]
+}
