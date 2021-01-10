@@ -19,52 +19,6 @@
       ]
     },
     {
-      "id": "49baa9c1-af47-4df7-b5a1-a17546778bb5",
-      "model": "Crown Victoria",
-      "year": 2002,
-      "make": "Ford",
-      "availableColors": [
-        "Pink",
-        "Aquamarine",
-        "Crimson"
-      ],
-      "suppliers": [
-        {
-          "name": "Jenkins-Williamson",
-          "email": "eshotboulte0@storify.com",
-          "_id": "860e5023-8c09-4d54-88f2-e2064b866dbf"
-        },
-        {
-          "name": "Boyer-Rosenbaum",
-          "email": "bloftin1@jiathis.com",
-          "_id": "c2edacc9-b3dd-45b3-8b77-0b2ec91b3487"
-        }
-      ]
-    },
-    {
-      "id": "40c6c341-74f9-4cf7-9288-4b932963e9b8",
-      "model": "RL",
-      "year": 2008,
-      "make": "Acura",
-      "availableColors": [
-        "Purple",
-        "Puce",
-        "Indigo"
-      ],
-      "suppliers": [
-        {
-          "name": "Muller Inc",
-          "email": "vchue0@utexas.edu",
-          "_id": "e5f78164-1af5-4f71-8da5-6efbb97ab2bf"
-        },
-        {
-          "name": "Monahan, Considine and Cassin",
-          "email": "gkulicke1@histats.com",
-          "_id": "681b687a-5642-4ccf-890b-943ee846cab0"
-        }
-      ]
-    },
-    {
       "id": "34669cac-58a5-4601-bab7-6d524d86499b",
       "model": "Lumina",
       "year": 1999,
@@ -79,29 +33,6 @@
           "name": "Bergstrom-Toy",
           "email": "mstiling0@telegraph.co.uk",
           "_id": "6e9cf074-773e-456c-bd25-4f06fc40953d"
-        }
-      ]
-    },
-    {
-      "id": "ed395918-a5c7-4f4d-8509-8cc0cdb98a1d",
-      "model": "Truck",
-      "year": 1991,
-      "make": "Mitsubishi",
-      "availableColors": [
-        "Crimson",
-        "Orange",
-        "Khaki"
-      ],
-      "suppliers": [
-        {
-          "name": "Hintz, Hagenes and Kuhic",
-          "email": "jchinn0@scribd.com",
-          "_id": "426f7b92-07c1-4f55-a70f-af2ce8db9079"
-        },
-        {
-          "name": "Breitenberg LLC",
-          "email": "ljiruca1@psu.edu",
-          "_id": "b0fe7821-e660-44b8-a171-fcea2ca0d4e4"
         }
       ]
     },
@@ -445,29 +376,6 @@
           "name": "Keebler-Fahey",
           "email": "fbuzza0@wordpress.org",
           "_id": "54482214-d845-47e3-add5-c8ab717b355c"
-        }
-      ]
-    },
-    {
-      "id": "56acad8a-23e1-49ab-b482-beca4009fae2",
-      "model": "Dynasty",
-      "year": 1992,
-      "make": "Dodge",
-      "availableColors": [
-        "Aquamarine",
-        "Orange",
-        "Orange"
-      ],
-      "suppliers": [
-        {
-          "name": "Jacobs-Bahringer",
-          "email": "dcringle0@meetup.com",
-          "_id": "7bc29a20-cae1-432d-ac9f-e2310676f806"
-        },
-        {
-          "name": "D'Amore, Bayer and Mosciski",
-          "email": "hbrotherhed1@pen.io",
-          "_id": "1b3c509c-de9e-4ed6-bf2f-00cfb8443583"
         }
       ]
     },

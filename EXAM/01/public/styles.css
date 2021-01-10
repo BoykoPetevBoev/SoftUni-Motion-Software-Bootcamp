@@ -7,36 +7,35 @@ table, form {
     border: 1px solid #ddd;
     margin: 50px auto;
     border-collapse: collapse;
+    text-align: center;
 }
 
 table thead {
     text-transform: uppercase;
 }
 
-table body:nth-child(even){
-    background-color: #929292;
+table tbody tr:nth-child(even) {
+    background-color: #eeeeee;
 }
 
 table tr {
     cursor: pointer;
 }
+
 th, td {
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ddd;
 }
 
 tr:hover {
     background-color: #bdbdbd;
-    
 }
-
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-height: 300px;
-
 }
 
 form label {

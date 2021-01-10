@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', loadTable);
 
-async function loadTable(criteria) {
+async function loadTable(е, criteria) {
     const data = await requester('GET', undefined, '');
 
-    if (data.length === 0) return;
+    if (!data || data.length === 0) return;
     if (typeof criteria === 'string') {
         data.sort((a, b) => {
-            if(typeof a[criteria] === 'string') return a[criteria].localeCompare(b[criteria])
-            if(typeof a[criteria] === 'number') return a[criteria] - b[criteria]
-            
+            if (typeof a[criteria] === 'string') return a[criteria].localeCompare(b[criteria]);
+            if (typeof a[criteria] === 'number') return a[criteria] - b[criteria];
         });
     }
     const thead = createTableHead(Object.keys(data[0]));
@@ -23,14 +22,12 @@ async function loadTable(criteria) {
 
 async function sortTable(e) {
     const value = e.target.innerHTML;
-    loadTable(value);
+    loadTable(undefined, value);
 }
 
 async function deleteInfo(e) {
-    e.preventDefault()
-
-    await requester('DELETE', undefined, `/${e.target.value}`)
-
+    e.preventDefault();
+    await requester('DELETE', `/${e.target.value}`);
     loadTable();
 }
 
@@ -42,7 +39,7 @@ function changeInfo(e) {
 
 async function rowEventHandler(e) {
     const id = e.currentTarget.firstChild.innerHTML;
-    const info = await requester('GET', undefined, `/${id}`);
+    const info = await requester('GET', `/${id}`);
 
     const values = Object.values(info).map(value => createElement('input', undefined, undefined, undefined, value));
     const keys = Object.keys(info).map((key, id) => createElement('label', [values[id]], key));
@@ -58,14 +55,12 @@ async function rowEventHandler(e) {
     getElement('form-holder').innerHTML = '';
     getElement('form-holder').append(form);
     console.log(values);
-
 }
 
 function createTableHead(data) {
     const th = createElements(data, 'th');
     const tr = createElement('tr', th);
-    const thead = createElement('thead', [tr]);
-    return thead;
+    return createElement('thead', [tr]);
 }
 
 function createTableBody(data) {
@@ -76,13 +71,11 @@ function createTableBody(data) {
         return tr;
     })
 
-    const tbody = createElement('tbody', rows);
-    return tbody;
+    return createElement('tbody', rows);
 }
 
 function createElements(elements, type) {
-    const result = elements.map(element => createElement(type, undefined, element));
-    return result
+    return elements.map(element => createElement(type, undefined, element));
 }
 
 function createElement(type, childrens, innerHTML, className, value, id) {
@@ -100,7 +93,7 @@ function getElement(id) {
     return element;
 }
 
-function requester(method, body, path) {
+function requester(method, path, body) {
     const url = `http://localhost:3000/cars${path}`;
     const headers = { method, body: JSON.stringify(body) };
 
@@ -110,7 +103,7 @@ function requester(method, body, path) {
 }
 
 function handleErrors(err) {
-    console.error(err);
+    throw new Error(err);
 }
 
 // availableColors: (3) ["Yellow", "Green", "Purple"]
