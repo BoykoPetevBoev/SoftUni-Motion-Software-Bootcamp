@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', loadTable);
 
 async function loadTable(е, criteria) {
-    const data = await requester('GET', undefined, '');
+    const data = await requester('GET', '');
 
     if (!data || data.length === 0) return;
     if (typeof criteria === 'string') {
@@ -12,7 +12,7 @@ async function loadTable(е, criteria) {
     }
     const thead = createTableHead(Object.keys(data[0]));
     const tbody = createTableBody(data);
-    const table = createElement('table', [thead, tbody]);
+    const table = createElement('table', { childrens: [thead, tbody] });
 
     thead.addEventListener('click', sortTable)
 
@@ -41,16 +41,16 @@ async function rowEventHandler(e) {
     const id = e.currentTarget.firstChild.innerHTML;
     const info = await requester('GET', `/${id}`);
 
-    const values = Object.values(info).map(value => createElement('input', undefined, undefined, undefined, value));
-    const keys = Object.keys(info).map((key, id) => createElement('label', [values[id]], key));
+    const values = Object.values(info).map(value => createElement('input', { value }));
+    const keys = Object.keys(info).map((key, id) => createElement('label', { childrens: [values[id]], innerHTML: key }));
 
-    const deleteBtn = createElement('button', undefined, 'Delete', undefined, id);
+    const deleteBtn = createElement('button', { innerHTML: 'Delete', id });
     deleteBtn.addEventListener('click', deleteInfo);
 
-    const changeBtn = createElement('button', undefined, 'Change', undefined, id);
+    const changeBtn = createElement('button', { innerHTML: 'Change', id });
     changeBtn.addEventListener('click', changeInfo);
 
-    const form = createElement('form', [...keys, deleteBtn, changeBtn]);
+    const form = createElement('form', { childrens: [...keys, deleteBtn, changeBtn] });
 
     getElement('form-holder').innerHTML = '';
     getElement('form-holder').append(form);
@@ -59,26 +59,26 @@ async function rowEventHandler(e) {
 
 function createTableHead(data) {
     const th = createElements(data, 'th');
-    const tr = createElement('tr', th);
-    return createElement('thead', [tr]);
+    const tr = createElement('tr', { childrens: th });
+    return createElement('thead', { childrens: [tr] });
 }
 
 function createTableBody(data) {
     const cols = data.map(element => createElements(Object.values(element), 'td'))
     const rows = cols.map(element => {
-        const tr = createElement('tr', element, undefined, 'body-line');
+        const tr = createElement('tr', { childrens: element, className: 'body-line' });
         tr.addEventListener('click', rowEventHandler);
         return tr;
     })
 
-    return createElement('tbody', rows);
+    return createElement('tbody', { childrens: rows });
 }
 
 function createElements(elements, type) {
-    return elements.map(element => createElement(type, undefined, element));
+    return elements.map(element => createElement(type, { innerHTML: element }));
 }
 
-function createElement(type, childrens, innerHTML, className, value, id) {
+function createElement(type, { childrens, innerHTML, className, value, id }) {
     const element = document.createElement(type);
     if (innerHTML) element.innerHTML = innerHTML;
     if (childrens) element.append(...childrens);
