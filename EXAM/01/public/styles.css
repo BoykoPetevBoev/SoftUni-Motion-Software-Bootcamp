@@ -49,3 +49,7 @@ form label {
 form label input {
     width: 270px;
 }
+
+.edit, .delete {
+    display: none;
+}

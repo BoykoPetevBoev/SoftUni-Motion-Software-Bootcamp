@@ -1,6 +1,16 @@
-document.addEventListener('DOMContentLoaded', loadTable);
+import { requester } from './requester.js';
 
-async function loadTable(е, criteria) {
+document.addEventListener('DOMContentLoaded', loadPage);
+
+function loadPage() {
+    eventHandler(getElement('submit'), 'click', addNewInfo);
+    eventHandler(getElement('delete'), 'click', deleteInfo);
+    eventHandler(getElement('edit'), 'click', changeInfo);
+
+    loadTable();
+}
+
+async function loadTable(criteria) {
     const data = await requester('GET', '');
 
     if (!data || data.length === 0) return;
@@ -14,7 +24,7 @@ async function loadTable(е, criteria) {
     const tbody = createTableBody(data);
     const table = createElement('table', { childrens: [thead, tbody] });
 
-    thead.addEventListener('click', sortTable)
+    eventHandler(thead, 'click', sortTable);
 
     getElement('root').innerHTML = '';
     getElement('root').append(table);
@@ -22,7 +32,7 @@ async function loadTable(е, criteria) {
 
 async function sortTable(e) {
     const value = e.target.innerHTML;
-    loadTable(undefined, value);
+    loadTable(value);
 }
 
 async function deleteInfo(e) {
@@ -34,27 +44,40 @@ async function deleteInfo(e) {
 function changeInfo(e) {
     e.preventDefault();
     const id = e.target.value;
-    console.log(e.target.parentNode.value);
+
+    console.log(id);
+}
+
+function addNewInfo(e) {
+    e.preventDefault();
+    console.log('new');
 }
 
 async function rowEventHandler(e) {
     const id = e.currentTarget.firstChild.innerHTML;
     const info = await requester('GET', `/${id}`);
 
-    const values = Object.values(info).map(value => createElement('input', { value }));
-    const keys = Object.keys(info).map((key, id) => createElement('label', { childrens: [values[id]], innerHTML: key }));
+    if (!info) return;
 
-    const deleteBtn = createElement('button', { innerHTML: 'Delete', id });
-    deleteBtn.addEventListener('click', deleteInfo);
+    Object.keys(info).map(key => {
+        if (getElement(key)) {
+            getElement(key).value = info[key];
+        }
+    });
+    formButtonDisplay(true);
+}
 
-    const changeBtn = createElement('button', { innerHTML: 'Change', id });
-    changeBtn.addEventListener('click', changeInfo);
-
-    const form = createElement('form', { childrens: [...keys, deleteBtn, changeBtn] });
-
-    getElement('form-holder').innerHTML = '';
-    getElement('form-holder').append(form);
-    console.log(values);
+function formButtonDisplay(block) {
+    if (block) {
+        getElement('edit').style.display = 'block';
+        getElement('delete').style.display = 'block';
+        getElement('submit').style.display = 'none';
+    }
+    else {
+        getElement('edit').style.display = 'none';
+        getElement('delete').style.display = 'none';
+        getElement('submit').style.display = 'block';
+    }
 }
 
 function createTableHead(data) {
@@ -67,7 +90,7 @@ function createTableBody(data) {
     const cols = data.map(element => createElements(Object.values(element), 'td'))
     const rows = cols.map(element => {
         const tr = createElement('tr', { childrens: element, className: 'body-line' });
-        tr.addEventListener('click', rowEventHandler);
+        eventHandler(tr, 'click', rowEventHandler);
         return tr;
     })
 
@@ -75,7 +98,11 @@ function createTableBody(data) {
 }
 
 function createElements(elements, type) {
-    return elements.map(element => createElement(type, { innerHTML: element }));
+    return elements.map(element => {
+        if (typeof element === 'string' || typeof element === 'number') {
+            return createElement(type, { innerHTML: element })
+        }
+    });
 }
 
 function createElement(type, { childrens, innerHTML, className, value, id }) {
@@ -93,18 +120,12 @@ function getElement(id) {
     return element;
 }
 
-function requester(method, path, body) {
-    const url = `http://localhost:3000/cars${path}`;
-    const headers = { method, body: JSON.stringify(body) };
-
-    return fetch(url, headers)
-        .then(res => res.json())
-        .catch(handleErrors)
+function eventHandler(element, type, fn) {
+    if (!element) return;
+    element.addEventListener(type, fn);
 }
 
-function handleErrors(err) {
-    throw new Error(err);
-}
+
 
 // availableColors: (3) ["Yellow", "Green", "Purple"]
 // id: "2a6c9178-8c23-4738-b729-99b85db5ce1d"
