@@ -2,41 +2,65 @@ import { requester } from './requester.js';
 
 document.addEventListener('DOMContentLoaded', loadPage);
 
-function loadPage() {
+async function loadPage() {
     eventHandler(getElement('submit'), 'click', addNewInfo);
     eventHandler(getElement('delete'), 'click', deleteInfo);
     eventHandler(getElement('edit'), 'click', changeInfo);
 
-    loadTable();
+    const data = await getData();
+    loadTable(data);
 }
 
-async function loadTable(criteria) {
+async function getData() {
     const data = await requester('GET', '');
+    if (!data) return [];
+    return data;
+}
 
-    if (!data || data.length === 0) return;
-    if (typeof criteria === 'string') {
-        data.sort((a, b) => {
-            if (typeof a[criteria] === 'string') return a[criteria].localeCompare(b[criteria]);
-            if (typeof a[criteria] === 'number') return a[criteria] - b[criteria];
-        });
-    }
+function loadTable(data) {
+    if(data.length === 0) return;
+
     const thead = createTableHead(Object.keys(data[0]));
     const tbody = createTableBody(data);
     const table = createElement('table', { childrens: [thead, tbody] });
-
     eventHandler(thead, 'click', sortTable);
-
     getElement('root').innerHTML = '';
     getElement('root').append(table);
 }
 
+function createTableHead(data) {
+    const th = createElements(data, 'th');
+    const tr = createElement('tr', { childrens: th });
+    return createElement('thead', { childrens: [tr] });
+}
+
+function createTableBody(data) {
+    const cols = data.map(element => createElements(Object.values(element), 'td'));
+    const rows = cols.map(element => {
+        const tr = createElement('tr', { childrens: element, className: 'body-line' });
+        eventHandler(tr, 'click', rowEventHandler);
+        return tr;
+    })
+    return createElement('tbody', { childrens: rows });
+}
+
 async function sortTable(e) {
-    const value = e.target.innerHTML;
-    loadTable(value);
+    const criteria = e.target.innerHTML;
+
+    console.log(e.target.value);
+    if (!criteria) return;
+
+    const data = await getData();
+    data.sort((a, b) => {
+        if (typeof a[criteria] === 'string') return a[criteria].localeCompare(b[criteria]);
+        if (typeof a[criteria] === 'number') return a[criteria] - b[criteria];
+    });
+    loadTable(data);
 }
 
 async function deleteInfo(e) {
     e.preventDefault();
+    formButtonDisplay(false);
     await requester('DELETE', `/${e.target.value}`);
     loadTable();
 }
@@ -46,6 +70,7 @@ function changeInfo(e) {
     const id = e.target.value;
 
     console.log(id);
+    formButtonDisplay(false);
 }
 
 function addNewInfo(e) {
@@ -64,6 +89,8 @@ async function rowEventHandler(e) {
             getElement(key).value = info[key];
         }
     });
+    getElement('delete').value = id;
+    getElement('edit').value = id;
     formButtonDisplay(true);
 }
 
@@ -80,27 +107,15 @@ function formButtonDisplay(block) {
     }
 }
 
-function createTableHead(data) {
-    const th = createElements(data, 'th');
-    const tr = createElement('tr', { childrens: th });
-    return createElement('thead', { childrens: [tr] });
-}
-
-function createTableBody(data) {
-    const cols = data.map(element => createElements(Object.values(element), 'td'))
-    const rows = cols.map(element => {
-        const tr = createElement('tr', { childrens: element, className: 'body-line' });
-        eventHandler(tr, 'click', rowEventHandler);
-        return tr;
-    })
-
-    return createElement('tbody', { childrens: rows });
-}
-
 function createElements(elements, type) {
     return elements.map(element => {
         if (typeof element === 'string' || typeof element === 'number') {
-            return createElement(type, { innerHTML: element })
+            return createElement(type, { innerHTML: element });
+        }
+        else if (Array.isArray(element)) {
+            const lists = element.map(el => createElement('li', { innerHTML: el }));
+            const ul = createElement('ul', { childrens: lists });
+            return createElement(type, { childrens: [ul] });
         }
     });
 }

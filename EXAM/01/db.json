@@ -19,24 +19,6 @@
       ]
     },
     {
-      "id": "34669cac-58a5-4601-bab7-6d524d86499b",
-      "model": "Lumina",
-      "year": 1999,
-      "make": "Chevrolet",
-      "availableColors": [
-        "Orange",
-        "Goldenrod",
-        "Khaki"
-      ],
-      "suppliers": [
-        {
-          "name": "Bergstrom-Toy",
-          "email": "mstiling0@telegraph.co.uk",
-          "_id": "6e9cf074-773e-456c-bd25-4f06fc40953d"
-        }
-      ]
-    },
-    {
       "id": "ceb1cdcf-fc92-44b4-a111-e27aa8019f8b",
       "model": "W201",
       "year": 1989,

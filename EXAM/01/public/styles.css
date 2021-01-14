@@ -46,10 +46,22 @@ form label {
     justify-content: space-between;
 }
 
+button {
+    width: 400px;
+    margin: auto;
+}
+
 form label input {
     width: 270px;
 }
 
 .edit, .delete {
     display: none;
+}
+
+ul {
+    margin: 0;
+}
+ul li {
+    text-align: left;
 }
