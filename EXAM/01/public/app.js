@@ -62,7 +62,9 @@ async function deleteInfo(e) {
     e.preventDefault();
     formButtonDisplay(false);
     await requester('DELETE', `/${e.target.value}`);
-    loadTable();
+    
+    const data = await getData()
+    loadTable(data);
 }
 
 function changeInfo(e) {
@@ -73,9 +75,17 @@ function changeInfo(e) {
     formButtonDisplay(false);
 }
 
-function addNewInfo(e) {
+async function addNewInfo(e) {
     e.preventDefault();
-    console.log('new');
+    
+    const make = getElement('make').value;
+    const model = getElement('model').value;
+    const year = getElement('year').value;
+    const availableColors = getElement('availableColors').value;
+
+    const res = await requester('POST', '', {make, model, year, availableColors});
+
+    console.log(res);
 }
 
 async function rowEventHandler(e) {
