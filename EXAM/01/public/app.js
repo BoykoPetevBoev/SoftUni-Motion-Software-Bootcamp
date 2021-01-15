@@ -7,18 +7,18 @@ async function loadPage() {
     eventHandler(getElement('delete'), 'click', deleteInfo);
     eventHandler(getElement('edit'), 'click', changeInfo);
 
-    const data = await getData();
+    const data = await getData('');
     loadTable(data);
 }
 
-async function getData() {
-    const data = await requester('GET', '');
+async function getData(path) {
+    const data = await requester('GET', path);
     if (!data) return [];
     return data;
 }
 
 function loadTable(data) {
-    if(data.length === 0) return;
+    if (data.length === 0) return;
 
     const thead = createTableHead(Object.keys(data[0]));
     const tbody = createTableBody(data);
@@ -47,14 +47,9 @@ function createTableBody(data) {
 async function sortTable(e) {
     const criteria = e.target.innerHTML;
 
-    console.log(e.target.value);
     if (!criteria) return;
 
-    const data = await getData();
-    data.sort((a, b) => {
-        if (typeof a[criteria] === 'string') return a[criteria].localeCompare(b[criteria]);
-        if (typeof a[criteria] === 'number') return a[criteria] - b[criteria];
-    });
+    const data = await getData(`?_sort=${criteria}&_order=asc`);
     loadTable(data);
 }
 
@@ -62,7 +57,7 @@ async function deleteInfo(e) {
     e.preventDefault();
     formButtonDisplay(false);
     await requester('DELETE', `/${e.target.value}`);
-    
+
     const data = await getData()
     loadTable(data);
 }
@@ -77,13 +72,13 @@ function changeInfo(e) {
 
 async function addNewInfo(e) {
     e.preventDefault();
-    
+
     const make = getElement('make').value;
     const model = getElement('model').value;
     const year = getElement('year').value;
     const availableColors = getElement('availableColors').value;
 
-    const res = await requester('POST', '', {make, model, year, availableColors});
+    const res = await requester('POST', '', { make, model, year, availableColors });
 
     console.log(res);
 }
